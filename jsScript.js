@@ -16,9 +16,9 @@ const dropdown2 = function () {
   // nav.style.backgroundColor = "transparent";
 };
 dropContainer1.addEventListener("mouseenter", dropdown1);
-dropContainer1.addEventListener("click", dropdown1);
+dropContainer1.addEventListener("mouseleave", dropdown1);
 dropContainer2.addEventListener("mouseenter", dropdown2);
-dropContainer2.addEventListener("click", dropdown2);
+dropContainer2.addEventListener("mouseleave", dropdown2);
 
 
 const menuBars = document.getElementById('menu-bars');
@@ -28,6 +28,7 @@ const menuFunction = function () {
     close1.style.display = "block";
 }
 menuBars.addEventListener("click", menuFunction);
+menuBars.addEventListener("touchstart", menuFunction, false);
 
 const closeFunction = function () {
     nav.style.display = "none";
