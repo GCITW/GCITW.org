@@ -11,52 +11,69 @@
   </head>
   <body>
     <div id = 'nav-bar'>
-    <img id = 'logo' src="./images/LogoCircleNoText.png" alt="GCITW" />
-    <nav>
-        <a id = 'home-link' class = 'nav-link' href="./home.html"><div class = 'nav-text'>Home</div></a>
-        <div id = 'drop-container1' class = 'drop-container'>
-          <a href="#">
-            <div id = 'drop-main' class = 'nav-text'>Problems & Solutions</div>
-          </a>
-          <a href="#">
-            <div class = 'nav-text drop1 drop-text'>Local Vibe</div>
-          </a>
-          <a href="#">
-            <div class = 'nav-text drop1 drop-text'>Arts & Culture</div>
-          </a>
-          <a href="#">
-            <div class = 'nav-text drop1 drop-text'>Outdoors & Amenities</div>
-          </a>
-          <a href="#">
-            <div class = 'nav-text drop1 drop-text'>Marketing & Promotion</div>
-          </a>
-          <a href="#">
-            <div class = 'nav-text drop1 drop-text'>A Great Place to Live</div>
-          </a>
+       <img id = 'logo' src="./images/LogoCircleNoText.png" alt="GCITW" />
+        <div id = 'menu-icon'>
+            <i id = 'menu-bars' class=" bars fas fa-bars"></i>
         </div>
-        <a class = 'nav-link' href="#" target = '_blank'><div class = 'nav-text'>What Makes a Small Town Great?</div></a>
-        <div id = 'drop-container2' class = 'drop-container'>
-          <a href="#">
-            <div id = 'drop-main' class = 'nav-text'>How We Started</div>
-          </a>
-          <a href="#">
-            <div class = 'nav-text drop2 drop-text'>Our Story</div>
-          </a>
-          <a href="#">
-            <div class = 'nav-text drop2 drop-text'>Kitanning300</div>
-          </a>
-          <a href="#">
+        <nav class = 'nav-main'>
+            <a id = 'home-link' class = 'nav-link' href="./home.html"><div class = 'nav-text'>Home</div></a>
+            <div id = 'drop-container1' class = 'nav-link'>
+              <a href="#">
+                <div id = 'drop-main' class = 'nav-text'>Problems & Solutions</div>
+              </a>
+              <a href="blog-page-template.html">
+                <div class = 'nav-text drop1 drop-text'>temp</div>
+              </a>
+              <a href="#">
+                <div class = 'nav-text drop1 drop-text'>Local Vibe</div>
+              </a>
+              <a href="#">
+                <div class = 'nav-text drop1 drop-text'>Arts & Culture</div>
+              </a>
+              <a href="#">
+                <div class = 'nav-text drop1 drop-text'>Outdoors & Amenities</div>
+              </a>
+              <a href="#">
+                <div class = 'nav-text drop1 drop-text'>Marketing & Promotion</div>
+              </a>
+              <a href="#">
+                <div class = 'nav-text drop1 drop-text'>A Great Place to Live</div>
+              </a>
+            </div>
+            <a class = 'nav-link' href="#" target = '_blank'><div class = 'nav-text'>What Makes a City Great?</div></a>
+            <div id = 'drop-container2' class = 'nav-link'>
+              <a href="#">
+                <div id = 'drop-main' class = 'nav-text'>How We Started</div>
+              </a>
+              <a href="#">
+                <div class = 'nav-text drop2 drop-text'>Our Story</div>
+              </a>
+              <a href="#">
+                <div class = 'nav-text drop2 drop-text'>Kitanning300</div>
+              </a>
+              <a href="#">
+            </div>
+            <a class = 'nav-link' href="#" target = '_blank'><div class = 'nav-text'>Recent Updates</div></a> 
+            <a class = 'nav-link' href="#" target = '_blank'><div class = 'nav-text'>Contact Us!</div></a>
+            <div class = 'nav-link close-menu'><div class = 'nav-text close-menu-style'><button>Close Menu</button></div></div>
+        </nav>
         </div>
-        <a class = 'nav-link' href="#" target = '_blank'><div class = 'nav-text'>Recent Updates</div></a> 
-    </nav>
-    </div>
 
     <div id = 'small-town'>
       <p class = 'sta-head'>Page Title</p>
+      <div class = 'main-blog-video'>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uIo9w9-b4r4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
       <p class = 'sta-p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi saepe provident voluptate accusamus delectus, consequatur pariatur, nostrum id nemo omnis repellat atque sequi earum. Architecto, provident in? Impedit, rerum ut.</p>
+      <a href="#expansion"><button class = 'expand-button'>Expand to Read More!</button></a>
+      
     </div>
+    <div id = "expansion" class = 'expand-page expansion'>
+        <p class = 'expansion-head'>Heading</p>
+        <p class = 'expansion-p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi saepe provident voluptate accusamus delectus, consequatur pariatur, nostrum id nemo omnis repellat atque sequi earum. Architecto, provident in? Impedit, rerum ut.</p>
+      </div>
     <div id = 'break'></div>
-    <div id = 'three-icons'>
+    <!-- <div id = 'three-icons'>
       <div class = icon-card>
         <img class = 'icon' src="./images/LogoCircleNoText.png" alt="">
         <p class = 'icon-head'>Changing Economy</p>
@@ -73,7 +90,7 @@
         <p class = 'icon-text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim aut nostrum modi, consequuntur quae dolorum molestiae, perspiciatis debitis numquam, quisquam possimus voluptatum ullam autem sint? Ex dolore consectetur eos in.</p>
       </div>
     </div>
-    <div id = 'break'></div>
+    <div id = 'break'></div> -->
     <!-- Blog container start -->
     <div class = 'blog-container'>
         <div class = 'blog-heading'>
@@ -91,7 +108,7 @@
         </div>
         <div class = 'blog-text'>
           <p class = 'blog-body-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque consectetur rem optio pariatur facere repellat cumque incidunt, autem veritatis sed molestias ducimus magnam quis fugiat magni ad, repellendus minima cupiditate?</p>
-          <a href="#"><button class = 'card-button'>Write a post</button></a>
+          <a href="#"><button class = 'card-button'>Share Your Story</button></a>
         </div>
     </div>
     <!-- Blog container finish -->

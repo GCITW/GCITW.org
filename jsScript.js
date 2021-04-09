@@ -16,9 +16,9 @@ const dropdown2 = function () {
   // nav.style.backgroundColor = "transparent";
 };
 dropContainer1.addEventListener("mouseenter", dropdown1);
-dropContainer1.addEventListener("mouseleave", dropdown1);
+dropContainer1.addEventListener("click", dropdown1);
 dropContainer2.addEventListener("mouseenter", dropdown2);
-dropContainer2.addEventListener("mouseleave", dropdown2);
+dropContainer2.addEventListener("click", dropdown2);
 
 
 const menuBars = document.getElementById('menu-bars');
@@ -34,3 +34,10 @@ const closeFunction = function () {
     close1.style.display = "none";
 }
 close1.addEventListener('click', closeFunction);
+
+const expandButton = document.querySelector('.expand-button');
+const expandPage = document.querySelector('.expansion');
+const expandFunction = function () {
+    expandPage.classList.toggle("expand-page");
+}
+expandButton.addEventListener('click', expandFunction);
