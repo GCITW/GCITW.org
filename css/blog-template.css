@@ -4,6 +4,7 @@
     width: 100vw;
     background-color: white;
     position: relative;
+    z-index: 10;
   }
   #logo {
     width: 94px;
@@ -303,6 +304,7 @@
       text-align: center;
       background-color: transparent;
       margin-right: 0;
+      z-index: 10 !important;
     }
   }
   @media screen and (max-width: 1300px) {

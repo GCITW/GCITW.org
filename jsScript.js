@@ -28,7 +28,7 @@ const menuFunction = function () {
     close1.style.display = "block";
 }
 menuBars.addEventListener("click", menuFunction);
-menuBars.addEventListener("touchstart", menuFunction, false);
+menuBars.addEventListener("touchstart", menuFunction);
 
 const closeFunction = function () {
     nav.style.display = "none";
