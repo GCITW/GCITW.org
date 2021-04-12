@@ -1,7 +1,9 @@
 const dropContainer1 = document.getElementById("drop-container1");
 const dropContainer2 = document.getElementById("drop-container2");
+const dropContainer3 = document.getElementById("drop-container3");
 const drop1 = document.querySelectorAll(".drop1");
 const drop2 = document.querySelectorAll(".drop2");
+const drop3 = document.querySelectorAll(".drop3");
 const nav = document.querySelector("nav");
 const dropdown1 = function () {
   drop1.forEach((element) => {
@@ -15,10 +17,21 @@ const dropdown2 = function () {
   });
   // nav.style.backgroundColor = "transparent";
 };
-dropContainer1.addEventListener("mouseenter", dropdown1);
+const dropdown3 = function () {
+  drop3.forEach((element) => {
+    element.classList.toggle("drop-text");
+  });
+  // nav.style.backgroundColor = "transparent";
+};
+dropContainer1.addEventListener("mouseover", dropdown1);
+dropContainer1.addEventListener("mouseout", dropdown1);
 dropContainer1.addEventListener("click", dropdown1);
-dropContainer2.addEventListener("mouseenter", dropdown2);
+dropContainer2.addEventListener("mouseover", dropdown2);
+dropContainer2.addEventListener("mouseout", dropdown2);
 dropContainer2.addEventListener("click", dropdown2);
+dropContainer3.addEventListener("mouseover", dropdown3);
+dropContainer3.addEventListener("mouseout", dropdown3);
+dropContainer3.addEventListener("click", dropdown3);
 
 
 const menuBars = document.getElementById('menu-bars');
