@@ -39,6 +39,12 @@ const close1 = document.querySelector('.close-menu')
 const menuFunction = function () {
     nav.style.display = "flex";
     close1.style.display = "block";
+    dropContainer1.removeEventListener("mouseover", dropdown1);
+    dropContainer1.removeEventListener("mouseout", dropdown1);
+    dropContainer2.removeEventListener("mouseover", dropdown2);
+    dropContainer2.removeEventListener("mouseout", dropdown2);
+    dropContainer3.removeEventListener("mouseover", dropdown3);
+    dropContainer3.removeEventListener("mouseout", dropdown3);
 }
 menuBars.addEventListener("click", menuFunction);
 
