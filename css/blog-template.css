@@ -21,35 +21,35 @@
   }
   .expansion-head {
     font-size: 2em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', sans-serif;
   }
   .expansion-p {
     font-size: 1.5em;
     margin: 1em 4em 1em 4em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', sans-serif;
     text-align: left;
   }
   li {
     font-size: 1em;
     margin: .5em .5em .5em .5em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', sans-serif;
     text-align: left;
   }
   ol {
     font-size: 1.5em;
     margin: 1em 1em 1em 1em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', sans-serif;
     text-align: left;
   }
   .sta-head {
-    font-size: 3.5em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+    font-family: 'Anton', sans-serif;
   }
   .sta-p {
     text-align: left;
     font-size: 2em;
     margin: 0 4em 1em 4em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', sans-serif;
   }
   #three-icons {
     display: grid;
@@ -68,13 +68,13 @@
     padding: 2em;
   }
   .icon-text {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', sans-serif;
     font-size: 1.5em;
     text-align: center;
   }
   .icon-head {
     font-size: 2em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', sans-serif;
   }
   .blog-container {
     display: grid;
@@ -131,7 +131,7 @@
 }
   .expand-button {
     font-size: 1.5em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', sans-serif;
     background-color: #22b284;
     color: white;
     width: 15em;
@@ -142,7 +142,7 @@
   }
   .card-button {
     font-size: 1.2em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', sans-serif;
     background-color: #22b284;
     color: white;
     width: 10em;
@@ -158,13 +158,13 @@
     margin: auto;
     padding: 1em;
     font-size: 2em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', sans-serif;
   }
   .flex-img {
     width: 100%;
   }
   footer {
-    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Anton', sans-serif;
     background-color: #22b284;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
