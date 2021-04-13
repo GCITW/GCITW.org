@@ -223,7 +223,7 @@ nav {
 .nav-text:hover {
   background-color: #575a59;
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1500px) {
   #nav-bar {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: max-content;
@@ -232,7 +232,7 @@ nav {
     position: relative;
   }
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1500px) {
   nav {
     grid-column: 1/3;
     display: none;
@@ -243,18 +243,18 @@ nav {
     margin-right: 0;
   }
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1500px) {
   .nav-link {
     padding: 0;
   }
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1500px) {
   #menu-icon {
     display: flex !important;
     justify-content: flex-end;
   }
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1500px) {
   #logo {
     margin-left: 1em;
   }
