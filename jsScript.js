@@ -35,24 +35,31 @@ dropContainer3.addEventListener("click", dropdown3);
 
 
 const menuBars = document.getElementById('menu-bars');
-const close1 = document.querySelector('.close-menu')
 const menuFunction = function () {
     nav.style.display = "flex";
-    close1.style.display = "block";
     dropContainer1.removeEventListener("mouseover", dropdown1);
     dropContainer1.removeEventListener("mouseout", dropdown1);
     dropContainer2.removeEventListener("mouseover", dropdown2);
     dropContainer2.removeEventListener("mouseout", dropdown2);
     dropContainer3.removeEventListener("mouseover", dropdown3);
     dropContainer3.removeEventListener("mouseout", dropdown3);
+    menuBars.removeEventListener("click", menuFunction);
+    menuBars.addEventListener("click", closeFunction);
+
 }
 menuBars.addEventListener("click", menuFunction);
 
 const closeFunction = function () {
     nav.style.display = "none";
-    close1.style.display = "none";
+    dropContainer1.addEventListener("mouseover", dropdown1);
+    dropContainer1.addEventListener("mouseout", dropdown1);
+    dropContainer2.addEventListener("mouseover", dropdown2);
+    dropContainer2.addEventListener("mouseout", dropdown2);
+    dropContainer3.addEventListener("mouseover", dropdown3);
+    dropContainer3.addEventListener("mouseout", dropdown3);
+    menuBars.addEventListener("click", menuFunction);
+    menuBars.removeEventListener("click", closeFunction);
 }
-close1.addEventListener('click', closeFunction);
 
 const expandButton = document.querySelector('.expand-button');
 const expandPage = document.querySelector('.expansion');
