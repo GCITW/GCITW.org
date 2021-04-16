@@ -34,7 +34,8 @@
 }
 .sta-p {
   font-size: 2em;
-  margin: 0 4em 4em 4em;
+  margin: 0 4em 1em 4em;
+  text-align: left;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #three-icons {
@@ -88,6 +89,8 @@
   align-self: center;
   border: 1px solid white;
   margin-bottom: 2em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 .card-button:hover {
   background-color: #575a59;
