@@ -19,6 +19,8 @@
 }
   #small-town {
     text-align: center;
+    width: 70%;
+    margin: auto;
   }
   .expand-page {
       display: none;
@@ -26,10 +28,13 @@
   .expansion {
     text-align: center;
     margin-top: 1em;
+    width: 70%;
+    margin: auto;
   }
   .expansion-head {
     font-size: 2em;
     font-family: 'Anton', sans-serif;
+    
   }
   .expansion-p {
     font-size: 1.5em;
@@ -279,9 +284,15 @@
       grid-template-columns: 90%;
     }
   }
-  @media screen and (max-width: 1500px) {
+  @media screen and (max-width: 1200px) {
     #small-town {
       margin-top: 100px;
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .expansion {
+      width: 100%;
     }
   }
   @media screen and (max-width: 1000px) {
