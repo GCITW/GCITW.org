@@ -31,37 +31,39 @@
   }
   .expansion-head {
     font-size: 2em;
-    font-family: 'Anton', sans-serif;
-    
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: bold;    
   }
   .expansion-p {
     font-size: 1.5em;
     margin: 1em 4em 1em 4em;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
     text-align: left;
   }
   li {
     font-size: 1em;
     margin: .5em .5em .5em .5em;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
     text-align: left;
   }
   ol {
     font-size: 1.5em;
     margin: 1em 1em 1em 1em;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
     text-align: left;
   }
   .sta-head {
     font-size: 4em;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: bold;
   }
   .sta-p {
     text-align: left;
     font-size: 2em;
     margin: auto;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
     width: 70%;
+    Padding: .25em;
   }
   #three-icons {
     display: grid;
@@ -80,13 +82,13 @@
     padding: 2em;
   }
   .icon-text {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 1.5em;
     text-align: center;
   }
   .icon-head {
     font-size: 2em;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
   }
   .blog-container {
     display: grid;
@@ -143,7 +145,8 @@
 }
   .expand-button {
     font-size: 1.5em;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: bold;
     background-color: #22b284;
     color: white;
     width: 15em;
@@ -154,7 +157,7 @@
   }
   .card-button {
     font-size: 1.2em;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
     background-color: #22b284;
     color: white;
     width: 10em;
@@ -170,7 +173,7 @@
     margin: auto;
     padding: 1em;
     font-size: 2em;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
   }
   .flex-img {
     width: 100%;
@@ -218,7 +221,7 @@
       font-size: 4em;
     }
   }
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1300px) {
     .main-blog-video iframe {
       width: 560px;
       height: 340px;
@@ -362,7 +365,8 @@
   }
   .nav-text {
     background-color: #22b284;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: bold;
     padding: 3px;
     color: white;
   }

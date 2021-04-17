@@ -16,9 +16,11 @@
   margin: 0;
   margin-right: 0.5em;
   text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: bold;
+  line-height: 99%;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
+  1px 1px 0 #000;
   /* font-family: "Open Sans", sans-serif; */
 }
 #break {
@@ -30,13 +32,13 @@
 }
 .sta-head {
   font-size: 4em;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
 }
 .sta-p {
   font-size: 2em;
   margin: 0 4em 1em 4em;
   text-align: left;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
 }
 #three-icons {
   display: grid;
@@ -89,8 +91,8 @@
   align-self: center;
   border: 1px solid white;
   margin-bottom: 2em;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight:bold;
 }
 .card-button:hover {
   background-color: #575a59;
@@ -99,13 +101,14 @@
   margin: auto;
   padding: 1em;
   font-size: 2em;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
 }
 .flex-img {
   width: 100%;
 }
 footer {
-  font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: bold;
   background-color: #22b284;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -222,7 +225,8 @@ nav {
 }
 .nav-text {
   background-color: #22b284;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: bold;
   padding: 3px;
   color: white;
 }
