@@ -71,6 +71,9 @@
   width: 100vw;
   align-items: center;
 }
+.mobile-up {
+  display: none;
+}
 .one-left {
   text-align: center;
   display: flex;
@@ -158,6 +161,16 @@ body {
 @media screen and (max-width: 1024px) {
   .first-container {
     grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .mobile-up {
+    display: grid;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .mobile-down {
+    display: none;
   }
 }
 @media screen and (max-width: 1024px) {
