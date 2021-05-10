@@ -107,6 +107,10 @@
     color: black;
     text-align: center;
   }
+  .blog-links {
+    color: #22b284;
+    text-decoration: underline;
+  }
   .title{
       font-size: 3.5em;
       margin-bottom: .2em;
